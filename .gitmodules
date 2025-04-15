@@ -1,0 +1,3 @@
+[submodule "src/libs/component-library"]
+	path = src/libs/component-library
+	url = https://github.com/kvikrambhat/component-library.git
