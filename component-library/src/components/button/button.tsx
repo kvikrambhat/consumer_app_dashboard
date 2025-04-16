@@ -1,14 +1,10 @@
 import React from 'react';
 
-interface ButtonProps {
+export type ButtonProps = {
   label: string;
   onClick: () => void;
-}
+};
 
-export const Button: React.FC<ButtonProps> = ({ label, onClick }) => {
-    return (
-      <button onClick={onClick} style={{ padding: "14px 28px", backgroundColor: "#ffeb3b" }}>
-        🚀 {label}
-      </button>
-    );
-  };
+export const Button = ({ label, onClick }: ButtonProps) => (
+  <button onClick={onClick}>{label}</button>
+);
