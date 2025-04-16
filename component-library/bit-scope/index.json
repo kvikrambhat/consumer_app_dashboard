@@ -1,0 +1,13 @@
+{
+  "components": [
+    {
+      "id": {
+        "scope": "component-library-local-bbc4f840",
+        "name": "components/button"
+      },
+      "isSymlink": false,
+      "hash": "013a80fa03174777b66f38aba4d611f990c7a2df"
+    }
+  ],
+  "lanes": []
+}
